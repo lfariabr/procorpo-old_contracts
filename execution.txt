@@ -1,0 +1,11 @@
+# EXECUTION
+old contracts / root directory
+uvicorn app.api.main:app --reload --host 0.0.0.0 --port 8090
+
+frontend / inner directory
+streamlit run streamlit_app.py
+
+# UPLOADING
+1) Rename your CSV file to contracts.xlsx (or modify the script to use your CSV file name)
+2) The password in the script should be "ProCorpoCttsAntigos" (I see it's currently set to "softwareengineer")
+3) Run the script with python test_upload.py
