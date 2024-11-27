@@ -19,6 +19,7 @@ ENV/
 # Data files
 contracts.xlsx
 output.csv
+test_upload.py
 
 # System files
 .DS_Store
