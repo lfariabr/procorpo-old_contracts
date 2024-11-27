@@ -1,2 +1,9 @@
 .env
-.xlsxcontracts.xlsx
+.contracts.xlsx
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.idea/
+*.log
